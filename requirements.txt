@@ -1,0 +1,15 @@
+autogen-agentchat
+autogen-core
+autogen-ext
+asyncio 
+tiktoken
+ollama
+streamlit
+openai
+fastapi
+langchain
+faiss-cpu
+langchain-huggingface
+sentence-transformers
+langchain-community
+langchain-text-splitters
