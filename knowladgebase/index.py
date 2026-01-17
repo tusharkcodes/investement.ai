@@ -1,8 +1,9 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings 
 from langchain_community.vectorstores import FAISS
 
 def store_vector_DB(chunks):
     print("Storing chunks in the vector database...")
+    
     try:
         # Initialize the embeddings model
         embeddings = HuggingFaceEmbeddings(

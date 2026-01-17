@@ -19,5 +19,6 @@ chunks = split_document_chunks(
     chunk_size=1000,
     chunk_overlap=200
 )
+
 print(f"Number of chunks created: {len(chunks)}")
 

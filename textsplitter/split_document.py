@@ -17,7 +17,7 @@ def split_document_chunks(documents, chunk_size=1000, chunk_overlap=200):
         
         # Return the chunks
         return chunks
-
+       
     except ImportError as e:
         print(f"ImportError: {e}. Please ensure all dependencies are installed.")
     except AttributeError as e:
